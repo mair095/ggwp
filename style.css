@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0px;
+    padding: 150px;
+}
+
+.wrapper {
+    box-sizing: border-box;
+    background-color: #2148C0;
+    width: 1000px;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(./╨н╨Ъ╨б╨Я╨Ю╨а╨в╨Ш╨а╨г╨Щ\ ╨Ь╨Х╨Э╨п.png)
+}
+
+.registration-menu {
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    width: 550px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    height: 30px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #F5F5F5;
+}
+
+button {
+    height: 40px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #2148C0;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.text {
+    color: #666666;
+    font-size: 14px;
+}
+
+h4 {
+    color: #FFFFFF;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+.label {
+    margin-bottom: 10px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.footer {
+    text-align: right;
+}
+
+.clue {
+    opacity: 50%;
+    font-size: 14px;
+}
